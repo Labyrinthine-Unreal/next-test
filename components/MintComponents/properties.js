@@ -5,7 +5,9 @@ const properties = [
         imageAlt: 'TAUROS Card',
         title: 'TAUROS MEMBERSHIP CARDS',
         presalePrice: 'N/A',
-        salePrice: '0.05 ETH'
+        salePrice: '0.05 ETH',
+        info: 'More info...',
+        href: '/tauros'
     },
     {
         id: 2,
@@ -13,7 +15,9 @@ const properties = [
         imageAlt: 'Estate Animation',
         title: 'MERCA CITY ESTATES',
         presalePrice: 'FREE w/ TAUROS + Gas',
-        salePrice: '0.15 ETH'
+        salePrice: '0.15 ETH',
+        info: 'More info...',
+        href: '/estates'
     },
     {
         id: 3,
@@ -21,7 +25,9 @@ const properties = [
         imageAlt: 'Masks',
         title: 'INITIATION MASKS',
         presalePrice: '0.15 ETH',
-        salePrice: '0.25 ETH'
+        salePrice: '0.25 ETH',
+        info: 'More info...',
+        href: '/masks'
     }
 ]
 

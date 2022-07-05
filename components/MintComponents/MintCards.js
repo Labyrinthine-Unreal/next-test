@@ -11,6 +11,8 @@ function CreateEntry(property) {
             title={property.title}
             presalePrice={property.presalePrice}
             salePrice={property.salePrice}
+            info={property.info}
+            href={property.href}
         />
     )
 }

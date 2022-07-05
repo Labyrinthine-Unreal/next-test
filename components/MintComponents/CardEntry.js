@@ -3,6 +3,7 @@ import MintAnimation from "./MintAnimation"
 import MintTitle from "./MintTitle"
 import MintButton from "./MintButton"
 import MintPrice from "./MintPrice"
+import MoreInfo from "./MoreInfo"
 
 export default function CardEntry(props) {
     return (
@@ -22,9 +23,12 @@ export default function CardEntry(props) {
                     />
                 </Box>
             </Box>
-            <Box display='flex' h={20} py={50} justifyContent='center'>
+            <Box display='flex' h={20} py={12} justifyContent='center'>
                 <MintButton />
             </Box>
+            <Box p={3}>
+                    <MoreInfo info={props.info} href={props.href} />
+                </Box>
         </Box>
     )
 }
