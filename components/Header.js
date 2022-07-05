@@ -1,4 +1,4 @@
-import { Center, Flex, Text,Button } from "@chakra-ui/react"
+import { Center, Flex, Text, Button } from "@chakra-ui/react"
 
 export default function Header({user, logout, isLoggingOut}){
     return(

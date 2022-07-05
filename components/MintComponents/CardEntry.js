@@ -26,7 +26,7 @@ export default function CardEntry(props) {
             <Box display='flex' h={20} py={12} justifyContent='center'>
                 <MintButton />
             </Box>
-            <Box p={3}>
+            <Box p={3} color='gray'>
                     <MoreInfo info={props.info} href={props.href} />
                 </Box>
         </Box>

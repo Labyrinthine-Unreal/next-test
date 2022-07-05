@@ -5,7 +5,7 @@ import properties from "./properties"
 function CreateEntry(property) {
     return (
         <CardEntry 
-            id={property.id}
+            key={property.id}
             image={property.imageUrl}
             alt={property.imageAlt}
             title={property.title}
